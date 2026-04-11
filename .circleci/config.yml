@@ -31,10 +31,11 @@ jobs:
             - "eslint.config.js"
             - "jest.config.cjs"
             - "jest.setup.js"
+            - "vite.config.js"
             - "node_modules"
             - ".git/*"
             - ".circleci/*"
-            - "src/*"
+            - "src"
 
   format:
     <<: *defaults
