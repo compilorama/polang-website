@@ -1,9 +1,15 @@
 import './container.styl';
+import { LocaleSelect } from '@compilorama/polang';
 
 const Container = ({ children }) => {
   return (
     <div className="pd-container">
-      {children}
+      <div className="pd-container-content">
+        {children}
+      </div>
+      <footer>
+        <LocaleSelect />
+      </footer>
     </div>
   );
 };

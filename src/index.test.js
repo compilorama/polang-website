@@ -9,6 +9,6 @@ describe('App', () => {
   });
 
   it('should render app', () => {
-    expect(screen.getByRole('heading', { name: 'Hello World!' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Polang' })).toBeInTheDocument();
   });
 });
