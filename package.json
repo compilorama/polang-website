@@ -37,6 +37,7 @@
     "jest": "^30.3.0",
     "jest-environment-jsdom": "^30.3.0",
     "stylus": "^0.64.0",
+    "netlify-cli": "^24.11.1",
     "vite": "^8.0.8"
   }
 }
