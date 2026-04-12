@@ -9,6 +9,6 @@ describe('App', () => {
   });
 
   it('should render app', () => {
-    expect(screen.getByRole('heading', { name: 'Polang' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'A tiny i18n library for small React apps' })).toBeInTheDocument();
   });
 });

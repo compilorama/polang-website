@@ -1,4 +1,3 @@
-import './home.styl';
 import { useTranslation } from '@compilorama/polang';
 import translations from './home.t';
 

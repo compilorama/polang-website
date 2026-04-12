@@ -1,7 +1,7 @@
 const translations = {
   'en-US': {
-    'heading': 'Polang',
-    'description': 'Polang is a tiny i18n library for small React apps. It offers a provider, a translation hook, and optionally a language selector — three tiny pieces that internationalize your React app with almost no effort.'
+    'heading': 'A tiny i18n library for small React apps',
+    'description': 'Polang offers a provider, a translation hook and a language selector, three tiny pieces that internationalize your React app with almost no effort.'
   },
   'pt-BR': {
     'heading': 'Polang',
