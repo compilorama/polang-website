@@ -8,12 +8,15 @@ const locales = [
   { code: 'pt-BR', name: 'Português BR' },
 ];
 
-const App = () => (
-  <I18nProvider locales={locales}>
-    <Container>
-      <RouterProvider router={router} />
-    </Container>
-  </I18nProvider>
-);
+const App = () => {
+  console.log('rendered App')
+  return (
+    <I18nProvider locales={locales}>
+      <Container>
+        <RouterProvider router={router} />
+      </Container>
+    </I18nProvider>
+  )
+};
 
 export default App;
