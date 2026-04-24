@@ -1,27 +1,42 @@
-@font-face
-  font-family Inter
-  font-style normal
-  font-weight 400
-  font-display optional
-  src url('@src/fonts/Inter-Regular.woff2') format('woff2')
-
-@font-face
-  font-family Inter
-  font-style normal
-  font-weight 700
-  font-display optional
-  src url('@src/fonts/Inter-Bold.woff2') format('woff2')
+@require 'vars'
+@require 'fonts'
 
 html, body
   margin 0
   padding 0
   min-height 100vh
-  font-family Inter, sans-serif
-  font-size 18px
+  font-family var(--pg-font-family-primary)
+  font-size var(--pg-font-size-md)
   font-feature-settings 'liga' 1, 'calt' 1
+  color var(--pg-color-darkest)
 
 h1
   font-size 2.66666667rem
   text-align center
   letter-spacing -1px
   line-height 1
+  color var(--pg-color-darkest)
+
+select
+  width 100%
+  max-width 20rem
+  padding 9px 44px 9px 18px
+  background-color var(--pg-color-gray-lighter)
+  background-image url('@src/images/arrows.svg')
+  background-repeat no-repeat
+  background-position right center
+  background-size 40px
+  color var(--pg-color-darkest)
+  font-family var(--pg-font-family-primary)
+  font-size var(--pg-font-size-xs)
+  line-height 1.4
+  border none
+  border-radius 12px
+  box-sizing border-box
+  appearance none
+  -webkit-appearance none
+  -moz-appearance none
+  cursor pointer
+
+  &::-ms-expand
+    display none

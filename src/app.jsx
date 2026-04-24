@@ -1,6 +1,6 @@
 import { I18nProvider } from '@compilorama/polang';
 import { RouterProvider } from 'react-router';
-import Container from '@src/components/container';
+import Layout from '@src/components/layout';
 import router from '@src/router';
 
 const locales = [
@@ -10,9 +10,9 @@ const locales = [
 
 const App = () => (
   <I18nProvider locales={locales}>
-    <Container>
+    <Layout>
       <RouterProvider router={router} />
-    </Container>
+    </Layout>
   </I18nProvider>
 );
 
