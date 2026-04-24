@@ -5,6 +5,7 @@ module.exports = {
   setupFiles: ['./jest.setup.js'],
   setupFilesAfterEnv: ['@testing-library/jest-dom'],
   moduleNameMapper: {
+    '\\.(mp4|webm)$': '<rootDir>/src/mocks/video.cjs',
     '\\.styl$': 'identity-obj-proxy',
     '^@src/(.*)$': path.resolve(__dirname, 'src/$1'),
     // This aliases are necessary only for @compilorama/polang local installs.
