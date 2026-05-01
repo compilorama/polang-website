@@ -1,9 +1,13 @@
 import './layout.styl';
+import { useTranslation } from '@compilorama/polang';
 import spaceVideoUrl from '@src/images/space.mp4';
 import LocaleSelect from '@src/components/locale-select';
 import Logo from '@src/components/logo';
+import translations from './layout.t';
 
 const Layout = ({ children }) => {
+  const { t } = useTranslation(translations);
+
   return (
     <div className="pg-layout">
       <video
@@ -22,7 +26,7 @@ const Layout = ({ children }) => {
           {children}
         </div>
         <footer>
-          <LocaleSelect />
+          <LocaleSelect aria-label={t('language')}/>
         </footer>
       </div>
     </div>
