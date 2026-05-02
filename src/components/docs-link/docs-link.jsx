@@ -9,7 +9,7 @@ const DocsLink = () => {
   return (
     <a
       className='pg-docs-link'
-      href='https://github.com/compilorama/polang#polang'
+      href={t('doc_url')}
       rel='noopener noreferrer'
       target='_blank'
     >

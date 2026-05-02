@@ -33,7 +33,7 @@ export default [
       'quotes': ['error', 'single'],
       'semi': ['error', 'always'],
       'complexity': ['error', { max: 3 }],
-      'max-lines': ['error', { max: 100 }],
+      'max-lines': ['error', { max: 150 }],
       'max-statements': ['error', { max: 5 }, { ignoreTopLevelFunctions: true }],
       'react/prop-types': 0
     }

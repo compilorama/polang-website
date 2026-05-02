@@ -11,9 +11,9 @@ const Home = () => {
       <h1 className='pg-home-heading'>{t('heading')}</h1>
       <p className='pg-home-description'>
         {t('description', {
-          hook: <strong>{t('description-hook')}</strong>,
-          provider: <strong>{t('description-provider')}</strong>,
-          selector: <strong>{t('description-selector')}</strong>,
+          hook: <strong>{t('description_hook')}</strong>,
+          provider: <strong>{t('description_provider')}</strong>,
+          selector: <strong>{t('description_selector')}</strong>,
         })}
       </p>
       <DocsLink />
