@@ -9,7 +9,7 @@ describe('App', () => {
   });
 
   it('should render app', () => {
-    expect(screen.getByRole('img').getAttribute('title')).toEqual('Polang\'s logo');
+    expect(screen.getByRole('img', { name: 'Polang\'s logo' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'A tiny i18n library for small React apps' })).toBeInTheDocument();
     expect(screen.getByRole('combobox', { name: 'Language' })).toBeInTheDocument();
   });
