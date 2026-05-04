@@ -3,7 +3,7 @@ const urlBase = 'https://github.com/compilorama/polang/blob/main/docs';
 const translations = {
   'en-US': {
     'label': 'Read the docs',
-    'doc_url': `${urlBase}/en-US.md`,
+    'doc_url': 'https://github.com/compilorama/polang#polang',
   },
   'pt-BR': {
     'label': 'Acessar docs',
