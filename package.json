@@ -41,6 +41,7 @@
     "jest-environment-jsdom": "^30.3.0",
     "netlify-cli": "^24.11.1",
     "stylus": "^0.64.0",
-    "vite": "^8.0.8"
+    "vite": "^8.0.8",
+    "vite-plugin-static-copy": "^4.1.0"
   }
 }
